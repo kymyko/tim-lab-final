@@ -23,4 +23,4 @@ To get a local copy up and running, follow these simple steps:
 ### 1. Clone the repository
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/digital-art-portfolio.git
+git clone https://github.com/kymyko/tim-lab-final.git
