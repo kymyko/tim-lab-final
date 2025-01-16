@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="/Users/marachirica/uni/TIM/Final Project/front-end/style/style.css">
+</head>
+<body>
+    <header>
+        <img src="/Users/marachirica/uni/TIM/Final Project/img/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Me for comissions!</h1>
+            <form id="contact-form" action="https://formspree.io/f/movvbzze" method="POST">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-textarea" required></textarea>
+            
+                <button type="submit" class="form-button">Send Message</button>
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Art Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

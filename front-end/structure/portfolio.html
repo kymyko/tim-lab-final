@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Users/marachirica/uni/TIM/Final Project/front-end/style/style.css">
+</head>
+<body>
+    <header>
+        <img src="/Users/marachirica/uni/TIM/Final Project/img/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Welcome to My Digital Art Portfolio</h1>
+            <p>Discover my artwork, categorized by concept art, 3D modeling, and illustration.</p>
+        </section>
+
+        <section class="filter-menu">
+            <button data-category="all">All</button>
+            <button data-category="concept-art">Concept Art</button>
+            <button data-category="3d-modeling">3D Modeling</button>
+            <button data-category="illustration">Illustration</button>
+        </section>
+
+        <section class="gallery">
+            <!-- Artworks from js file -->
+        </section>
+
+        <div id="modal" class="modal">
+            <span class="close-btn">&times;</span>
+            <img id="modal-image" class="modal-content" src="" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Art Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="/Users/marachirica/uni/TIM/Final Project/front-end/scripts/portfolio.js"></script>
+</body>
+</html>
